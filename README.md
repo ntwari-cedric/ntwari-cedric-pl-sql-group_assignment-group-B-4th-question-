@@ -43,3 +43,6 @@ Stores doctor information:
 - `specialty`
 ---
 ### inserting sample data in our table
+![BPMN Diagram](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/insert%20pactient.png?raw=true)
+
+
