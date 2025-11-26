@@ -89,7 +89,7 @@ Example test scripts are provided to validate functionality:
    
 2.Show All Patients
 
-sql
+```sql
 VARIABLE rc REFCURSOR;
 EXEC :rc := hospital_pkg.show_all_patients;
 PRINT rc;
