@@ -102,4 +102,4 @@ EXEC hospital_pkg.admit_patient(1);
 sql
 SELECT hospital_pkg.count_admitted FROM dual;
 /
-![exec]()
+![exec](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/ex.png?raw=true)
