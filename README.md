@@ -56,7 +56,9 @@ The package `hospital_pkg` defines:
 
 ---
 ![BPMN Diagram](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/package%201.png?raw=true)
+
 ![BPMN Diagram](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/package%202.png?raw=true)
+
 ![BPMN Diagram](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/package%203.png?raw=true)
 ## ⚙️ Package Body
 Implements the above specification using:
