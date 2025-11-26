@@ -26,7 +26,7 @@ The package provides functionalities to:
 
 ## Patients Table
 
-![BPMN Diagram](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/patient.png)
+![patients](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/patient.png)
 Stores patient information:
 - `patient_id` (Primary Key, Identity)
 - `name`
@@ -35,7 +35,7 @@ Stores patient information:
 - `admitted_status` (`YES`/`NO`)
   ### Doctors Table
 
-![BPMN Diagram](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/doctor.png)
+![doctors](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/doctor.png)
 
 Stores doctor information:
 - `doctor_id` (Primary Key, Identity)
@@ -43,6 +43,18 @@ Stores doctor information:
 - `specialty`
 ---
 ### inserting sample data in our table
-![BPMN Diagram](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/insert%20pactient.png?raw=true)
+![inserting](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/insert%20pactient.png?raw=true)
 
+## 📦 Package Specification
+The package `hospital_pkg` defines:
+- **Collection Type**: `patient_tab` for bulk patient processing
+- **Procedures & Functions**:
+  - `bulk_load_patients` – Insert multiple patients at once
+  - `show_all_patients` – Return all patients via a cursor
+  - `count_admitted` – Return number of admitted patients
+  - `admit_patient` – Update a patient’s admission status
 
+---
+![BPMN Diagram]()
+![BPMN Diagram]()
+![BPMN Diagram]()
