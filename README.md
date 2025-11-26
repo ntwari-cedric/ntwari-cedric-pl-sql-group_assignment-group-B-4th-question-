@@ -93,12 +93,13 @@ Example test scripts are provided to validate functionality:
 VARIABLE rc REFCURSOR;
 EXEC :rc := hospital_pkg.show_all_patients;
 PRINT rc;
-
+/
 3.Admit a Patient
 
-sql
+```sql
 EXEC hospital_pkg.admit_patient(1);
-
+/
 4.Count Admitted Patients
-sql
+```sql
 SELECT hospital_pkg.count_admitted FROM dual;
+/
