@@ -67,3 +67,23 @@ Implements the above specification using:
 - **COMMIT** statements for data consistency
 
 ---
+![cody](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/procedure%20og.png?raw=true)
+
+![BPMN Diagram](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/procedure%20og2.png?raw=true)
+
+## 🧪 Testing
+Example test scripts are provided to validate functionality:
+
+1. **Bulk Load Patients**
+   ```sql
+   DECLARE
+       l_patients hospital_pkg.patient_tab := hospital_pkg.patient_tab();
+   BEGIN
+       l_patients.EXTEND(2);
+       l_patients(1).name := 'Alice'; l_patients(1).age := 30; l_patients(1).gender := 'F'; l_patients(1).admitted_status := 'NO';
+       l_patients(2).name := 'Bob';   l_patients(2).age := 45; l_patients(2).gender := 'M'; l_patients(2).admitted_status := 'NO';
+
+       hospital_pkg.bulk_load_patients(l_patients);
+   END;
+   /
+   
