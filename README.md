@@ -55,6 +55,13 @@ The package `hospital_pkg` defines:
   - `admit_patient` – Update a patient’s admission status
 
 ---
-![BPMN Diagram]()
-![BPMN Diagram]()
-![BPMN Diagram]()
+![BPMN Diagram](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/package%201.png?raw=true)
+![BPMN Diagram](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/package%202.png?raw=true)
+![BPMN Diagram](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/package%203.png?raw=true)
+## ⚙️ Package Body
+Implements the above specification using:
+- **FORALL** for efficient bulk inserts
+- **SYS_REFCURSOR** for flexible querying
+- **COMMIT** statements for data consistency
+
+---
