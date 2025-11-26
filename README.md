@@ -25,17 +25,21 @@ The package provides functionalities to:
 ---
 
 ## Patients Table
+
+![BPMN Diagram](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/patient.png)
 Stores patient information:
 - `patient_id` (Primary Key, Identity)
 - `name`
 - `age`
 - `gender`
 - `admitted_status` (`YES`/`NO`)
-
   ### Doctors Table
+
+![BPMN Diagram](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/doctor.png)
+
 Stores doctor information:
 - `doctor_id` (Primary Key, Identity)
 - `name`
 - `specialty`
-
 ---
+### inserting sample data in our table
