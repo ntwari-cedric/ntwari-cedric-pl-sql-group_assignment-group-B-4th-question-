@@ -103,3 +103,7 @@ sql
 SELECT hospital_pkg.count_admitted FROM dual;
 /
 ![exec](https://github.com/ntwari-cedric/ntwari-cedric-pl-sql-group_assignment-group-B-4th-question-/blob/main/ex.png?raw=true)
+
+## Conclusion
+
+In conclusion, all requirements were fully implemented, tested, and verified. The package provides efficient bulk data handling, clear information retrieval, and reliable patient admission management, proving the effectiveness of PL/SQL for real-world systems.
