@@ -8,7 +8,7 @@
 2. **Munyanturire Kaliza Liesse** – 28410  
 3. **Himba Aimee Mireille** – 28220  
 4. **Ntwari Cedric** – 28228  
-5. **Singizwa Boncoeur** – 28228  
+5. **Singizwa Boncoeur** – 28308 
 6. **Irembere Olivier** – 28392  
 7. **Uwase Sonia Umutoni** – 28352
 
@@ -87,3 +87,18 @@ Example test scripts are provided to validate functionality:
    END;
    /
    
+2.Show All Patients
+
+sql
+VARIABLE rc REFCURSOR;
+EXEC :rc := hospital_pkg.show_all_patients;
+PRINT rc;
+
+3.Admit a Patient
+
+sql
+EXEC hospital_pkg.admit_patient(1);
+
+4.Count Admitted Patients
+sql
+SELECT hospital_pkg.count_admitted FROM dual;
